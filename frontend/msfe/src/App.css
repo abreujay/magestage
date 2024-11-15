@@ -1,0 +1,30 @@
+nav {
+  background-color: #2F2F2F;
+  padding: 10px;
+}
+
+.navlinks {
+  display: flex;
+  gap: 20px;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: #006400;
+  padding: 10px 15px;
+}
+
+.footer {
+  background-color: #2F2F2F;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
