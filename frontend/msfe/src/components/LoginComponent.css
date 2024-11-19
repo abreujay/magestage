@@ -1,0 +1,96 @@
+body {
+    background-color: #121212;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #121212 0%, #28a745 100%);
+}
+
+.form-wrapper {
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #28a745;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #333;
+    background-color: #1c1c1c;
+    color: #ddd;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #28a745;
+    background-color: #252525;
+    outline: none;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    background-color: #28a745;
+    color: #1f1f1f;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #28a745;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

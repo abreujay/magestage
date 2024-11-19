@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import RegisterComponent from "./components/RegisterComponent";
+import RoutesApp from './routes/routes'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,7 +15,7 @@ function App() {
         </div>
       </nav>
       <main>
-        <RegisterComponent/>
+        <RoutesApp/>
       </main>
       <footer className="footer">
         <p>

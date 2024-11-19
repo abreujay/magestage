@@ -19,7 +19,7 @@ const User = sequelize.define("User", {
   },
 
   userpass: {
-    type: DataTypes.STRING,
+    type: DataTypes.STRING(100),
     allowNull: false,
   },
 });
@@ -38,6 +38,7 @@ const Post = sequelize.define("Post", {
 
 User.beforeCreate(async (user) => {
   const hashedPassword = await bcrypt.hash(user.userpass, 10);
+  console.log("Senha criptografada no beforeCreate:", hashedPassword);
   user.userpass = hashedPassword;
 });
 
